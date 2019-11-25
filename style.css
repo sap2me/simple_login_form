@@ -12,15 +12,27 @@ body{
   background-image: linear-gradient(120deg,#083310,#306109,#ace214);
 }
 
+@media (max-width: 600px){
+  .login-form{
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media (min-width: 599px){
+  .login-form{
+    width: 360px;
+    height: 580px;
+  }
+}
+
 .login-form{
-  width: 360px;
-  background: #ffffff;
-  height: 580px;
   padding: 80px 40px;
   border-radius: 10px;
   position: absolute;
   left: 50%;
   top: 50%;
+  background: #ffffff;
   transform: translate(-50%,-50%);
 }
 
